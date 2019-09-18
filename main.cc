@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "goods.h" 
+#include "goods.h"
 #include "shopping.h"
 
 int main(int argc, char* argv[]) {

@@ -1,5 +1,6 @@
 #include <iostream>
-#include "./shopping.h"
+
+#include "shopping.h"
 
 // Push Goods object to shopping_list_ vector
 void Shopping::PushList(Goods object) {
@@ -16,7 +17,7 @@ void Shopping::PrintList() {
   for (std::vector<Goods>::iterator i = shopping_list_.begin();
       i != shopping_list_.end(); i++) {
     std::cout << "Goods #" << i->GetIndex() << " - Price : " <<
-    i->GetPrice() << std::endl;
+      i->GetPrice() << std::endl;
   }
 }
 
